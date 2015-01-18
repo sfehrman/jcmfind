@@ -1,7 +1,0 @@
-#!/bin/sh
-
-JCM_INVOKE_CLASS="org.fehrman.jcm.main.Main"
-export JCM_INVOKE_CLASS
-
-SCRIPT_DIR=`dirname "${0}"`
-"${SCRIPT_DIR}/../lib/_client-script.sh" "find" "${@}"
