@@ -51,10 +51,8 @@ public class Main
    public static void main(String[] args) throws Exception 
    //----------------------------------------------------------------
    {
-      // find /work/Software/Library/OracleIdMgr_11gR2_PS1 handle -h
-
       Main main = new Main();
-//      String[] test = {"find","/work/Software/Library/OracleIdMgr_11gR2_PS1","actionhandler", "-e"};
+//      String[] test = {"find","/Users/sfehrman/Documents","actionhandler", "-e"};
 //      main.run(test);
       main.run(args);
       return;
